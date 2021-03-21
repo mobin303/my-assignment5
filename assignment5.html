@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <main>
+        <div id="nav">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cooking Recipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <form class="col-md-6 m-auto py-5">
+                <div class="input-group mb-4" id="search">
+                    <input type="text" id="city" class="form-control" placeholder="Search for meal ...">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-danger" id="search_button">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <p id="Description"></p>
+        <div onclick="secondDisplay()">
+            <p id="all-list"></p>
+        </div>
+
+        <script src="assignment5.js"></script>
+    </main>
+
+</body>
+
+</html>
